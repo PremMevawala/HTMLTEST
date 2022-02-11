@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="calculate.js"></script>
+</head>
+<!-- module browser code -->
+<!-- <script type="module">
+   
+  document.getElementById("mybutton").addEventListener("click", () => {
+     
+   import("./calculate.js").then(sum ,mull, sub => {
+     console.log(sum ,mull ,sub);
+     alert(calculate.default(1,1,1,1,1,1));
+   })
+   
+   });
+ </script> -->
+
+<body>
+
+  <form>
+  <div class="header">
+
+    <input type="text" id="a" placeholder="input_a" style="margin-left: 150px" required>
+    <input type="text" id="b" placeholder="input_b" required>
+    <input type="text" id="c" placeholder="input_c" size="60" required>
+    <input type="text" id="d" placeholder="input_d" required>
+    <input type="text" id="e" placeholder="input_e" size="40" style="margin-left: 250px ; margin-top: 10px;" required>
+    <input type="text" id="f" placeholder="input_f" required>
+    <input type="text" id="output" placeholder="output" size="40" disabled>
+  </div>
+
+</form>
+  <div class="grid-container">
+
+    <div class="item1" onclick="sum()"></div>
+
+    <div class="item2" onclick="sub()"></div>
+    <div class="item3" onclick="mull()"></div>
+    <div class="item4" onclick="sub()"></div>
+    <div class="item5" onclick="mull()"></div>
+    <div class="item6" onclick="sub()"></div>
+    <div class="item7" onclick="mull()"></div>
+    <div class="item8" onclick="sub()"></div>
+    <div class="item9" onclick="mull()"></div>
+    <div class="item10" onclick="sub()"></div>
+    <div class="item11" onclick="mull()"></div>
+    <div class="item12" onclick="sum()"></div>
+    </div>
+  </div>
+  <button class="button" id="mybutton">multiply</button>
+
+  
+</body>
+
+</html>

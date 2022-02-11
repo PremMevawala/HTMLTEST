@@ -1,0 +1,28 @@
+{
+    "name": "ap-zad-3",
+    "version": "1.0.0",
+    "description": "Konfiguracja startowa do rozwiązania zadania rekrutacyjnego nr 3 do AlterPage ",
+    "scripts": {
+    "test": "jest"
+    },
+    "author": "Alterpage",
+    "license": "ISC",
+    "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7",
+    "jest-environment-node": "^27.4.6"
+    },
+    "jest": {
+    "verbose": true,
+    "testEnvironment": "jest-environment-node",
+    "transform": {
+    "^.+\\.[jt]s(|x)?$": "babel-jest"
+    }
+    },
+    "babel": {
+    "presets": ["@babel/preset-env"]
+    }
+    }
+    
